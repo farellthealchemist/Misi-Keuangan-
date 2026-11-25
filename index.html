@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#101714">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Misi Keuangan">
+<meta name="description" content="Dashboard perjalanan financial security pribadi.">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>Misi Keuangan — Financial Security</title>
+<style>
+:root{--bg:#0c1210;--panel:#141d19;--panel2:#192520;--text:#edf4ef;--muted:#a0b1a7;--green:#83e0ae;--lime:#c5f36b;--line:#293830;--orange:#ffbe75}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 15% -5%,#1b392c 0,transparent 45%),var(--bg);font:16px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--text)}.wrap{max-width:880px;margin:auto;padding:22px 16px 70px}.hero{padding:26px 22px;border:1px solid #2b493a;border-radius:24px;background:linear-gradient(135deg,#182a21,#111916 70%);position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:200px;height:200px;border:1px solid #456d54;border-radius:50%;right:-70px;top:-90px;box-shadow:0 0 0 24px #20372a55,0 0 0 48px #20372a22}.eyebrow{letter-spacing:.12em;text-transform:uppercase;font-size:12px;color:var(--green);font-weight:750}.hero h1{font-size:clamp(30px,6vw,46px);line-height:1.08;margin:12px 0}.hero p{color:var(--muted);max-width:600px}.hero-total{font-size:27px;font-weight:800;color:var(--lime);margin-top:20px}.card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:20px;margin-top:18px}.section-head{display:flex;gap:12px;align-items:center;margin-bottom:12px}.num{width:42px;height:42px;border-radius:13px;background:#21392c;color:var(--green);display:grid;place-items:center;font-weight:800}.section-head h2{font-size:20px;margin:0}.section-head small{color:var(--muted)}.muted{color:var(--muted)}.tag{display:inline-block;border:1px solid #365345;background:#20352a;color:var(--green);padding:4px 9px;border-radius:99px;font-size:12px;font-weight:700}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.stat{padding:16px;background:var(--panel2);border-radius:16px;border:1px solid var(--line)}.stat strong{font-size:22px;display:block;margin:4px 0}.stat span{font-size:13px;color:var(--muted)}.list{list-style:none;padding:0;margin:10px 0}.list li{margin:10px 0}.list label{display:flex;gap:10px;align-items:flex-start;cursor:pointer}.list input{accent-color:#79d99f;width:19px;height:19px;margin-top:2px;flex-shrink:0}.list li.done{opacity:.55;text-decoration:line-through}table{width:100%;border-collapse:collapse;margin-top:12px}th,td{text-align:left;padding:12px 9px;border-bottom:1px solid var(--line)}th{font-size:13px;color:var(--muted)}td:last-child,th:last-child{text-align:right}.progress{height:12px;background:#25352d;border-radius:99px;overflow:hidden;margin:8px 0 16px}.progress div{height:100%;background:linear-gradient(90deg,var(--green),var(--lime));width:0;transition:width .3s}.quote{padding:19px;border-radius:17px;background:#1d3026;border:1px solid #34513f;color:#e2f6e8;font-size:17px;font-weight:650}.reason{border-left:3px solid #4b8261;padding:8px 12px;margin:10px 0;color:#dce9e0}.phase{display:flex;justify-content:space-between;gap:10px;align-items:center}.phase strong{color:var(--green)}.footer{text-align:center;color:var(--muted);font-size:13px;padding:22px 8px}.btn{border:1px solid var(--line);background:#1c2922;color:var(--text);padding:10px 14px;border-radius:12px;font:inherit;cursor:pointer}.btn:hover{border-color:#6a987c}.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}.small{font-size:13px;color:var(--muted)}@media(max-width:600px){.grid{grid-template-columns:1fr}.card{padding:16px}.hero{padding:22px 18px}table{font-size:14px}th,td{padding:10px 6px}}
+body{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom)}
+@media print{body{padding:0}}
+</style>
+</head>
+<body><main class="wrap">
+<header class="hero">
+<div class="eyebrow">Personal finance quest · 2026</div>
+<h1>Misi Keuangan<br>Financial Security</h1>
+<p>Dari melunasi tagihan, membangun buffer, hingga mencapai dana darurat. Satu misi pada satu waktu.</p>
+<div class="hero-total">Target akhir Rp12.000.000</div>
+</header>
+
+<section class="card">
+<div class="section-head"><div class="num">01</div><div><h2>Misi pertama — Lunasi tagihan</h2><small>Target: 9 Desember 2026</small></div></div>
+<div class="grid">
+<div class="stat"><span>Total tagihan</span><strong>Rp1.700.000</strong></div>
+<div class="stat"><span>Uang saat ini</span><strong>Rp170.893</strong></div>
+<div class="stat"><span>Kekurangan</span><strong>Rp1.529.107</strong></div>
+<div class="stat"><span>Minimum aman harian</span><strong>Rp110.000</strong><span>Target kerja: 14 hari</span></div>
+</div>
+<ul class="list">
+<li><label><input type="checkbox"><span>UAS kuliah — Rp300.000 · target 7 Des</span></label></li>
+<li><label><input type="checkbox"><span>Cicilan HP Desember — Rp400.000 · target 9 Des</span></label></li>
+<li><label><input type="checkbox"><span>Keperluan lain — Rp1.000.000 · target 9 Des</span></label></li>
+</ul>
+<div class="reason"><b>Kenapa?</b> Menyelesaikan kewajiban mengurangi tekanan keuangan dan memberi ruang untuk membangun tabungan tanpa dibayangi tagihan.</div>
+<p class="quote">Anggap ini misi pertama. Selesaikan satu per satu, jangan biarkan semuanya terasa seperti beban besar.</p>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">02</div><div><h2>Misi kedua — Buffer awal</h2><small>Target Rp1.000.000</small></div></div>
+<ul class="list">
+<li><label><input type="checkbox"><span>Kumpulkan Rp1 juta pertama setelah tagihan lunas.</span></label></li>
+<li><label><input type="checkbox"><span>Simpan di tabungan bank terpisah dari uang operasional.</span></label></li>
+<li><label><input type="checkbox"><span>Gunakan hanya untuk kebutuhan mendesak.</span></label></li>
+</ul>
+<div class="reason"><b>Kenapa?</b> Tidak harus menunggu Rp12 juta untuk mulai punya perlindungan. Buffer pertama menjadi pertahanan awal saat ada hal tak terduga.</div>
+<p class="quote">Rp1 juta pertama bukan angka kecil. Itu adalah awal dari kebiasaan melindungi diri sendiri.</p>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">03</div><div><h2>Misi ketiga — Dana darurat</h2><small>Target penuh Rp12.000.000</small></div></div>
+<div class="grid">
+<div class="stat"><span>Tabungan bank · 25%</span><strong>Rp3.000.000</strong><span>Cadangan yang mudah diakses</span></div>
+<div class="stat"><span>RDPU · 75%</span><strong>Rp9.000.000</strong><span>Cadangan tambahan berpotensi berimbal hasil</span></div>
+</div>
+<h3>Tabungan bank — target Rp3 juta</h3>
+<ul class="list">
+<li><label><input type="checkbox"><span>Gunakan rekening khusus (opsi: SeaBank).</span></label></li>
+<li><label><input type="checkbox"><span>Isi hingga Rp3 juta.</span></label></li>
+<li><label><input type="checkbox"><span>Pertahankan saldo, isi kembali jika terpakai.</span></label></li>
+</ul>
+<div class="reason"><b>Kenapa?</b> Ada keadaan darurat yang membutuhkan uang segera. Bagian ini tidak perlu menunggu pencairan investasi.</div>
+<h3>RDPU — target Rp9 juta</h3>
+<ul class="list">
+<li><label><input type="checkbox"><span>Setelah buffer awal terbentuk, mulai mengisi RDPU.</span></label></li>
+<li><label><input type="checkbox"><span>Periksa return 1 tahun, expense ratio, AUM, portofolio dan pencairan.</span></label></li>
+<li><label><input type="checkbox"><span>Jangan berpindah produk hanya karena return lebih tinggi.</span></label></li>
+</ul>
+<div class="reason"><b>Kenapa?</b> RDPU berpotensi memberikan imbal hasil lebih baik daripada tabungan biasa, dengan risiko relatif rendah, tetapi tetap memiliki risiko dan pencairan tidak selalu instan.</div>
+<p class="small">Produk yang sedang dipertimbangkan: Majoris Pasar Uang Syariah Indonesia. Periksa data terbaru dan prospektus sebelum membeli.</p>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">04</div><div><h2>Milestone progress</h2><small>Saldo kumulatif, bukan penambahan tiap tahap</small></div></div>
+<table><thead><tr><th>Level</th><th>Tabungan</th><th>RDPU</th><th>Total</th></tr></thead><tbody>
+<tr><td>Buffer awal</td><td>Rp1 jt</td><td>Rp0</td><td>Rp1 jt</td></tr>
+<tr><td>Level 1</td><td>Rp2 jt</td><td>Rp1 jt</td><td>Rp3 jt</td></tr>
+<tr><td>Level 2</td><td>Rp3 jt</td><td>Rp3 jt</td><td>Rp6 jt</td></tr>
+<tr><td>Level 3</td><td>Rp3 jt</td><td>Rp6 jt</td><td>Rp9 jt</td></tr>
+<tr><td><b>Level 4 · Finish</b></td><td>Rp3 jt</td><td>Rp9 jt</td><td><b>Rp12 jt</b></td></tr>
+</tbody></table>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">05</div><div><h2>Alasan kuat memiliki dana darurat</h2></div></div>
+<div class="reason"><b>Kenapa?</b> Hidup tidak selalu berjalan sesuai rencana. <br><span class="muted">Karena dana darurat membantu menghadapi kebutuhan mendadak tanpa panik.</span></div>
+<div class="reason"><b>Kenapa tidak hanya mengandalkan penghasilan?</b><br><span class="muted">Karena penghasilan bisa berkurang, berhenti, atau terlambat.</span></div>
+<div class="reason"><b>Kenapa tidak langsung investasi?</b><br><span class="muted">Karena investasi jangka panjang tidak seharusnya terpaksa dicairkan saat keadaan darurat.</span></div>
+<div class="reason"><b>Kenapa ada tabungan bank?</b><br><span class="muted">Karena kebutuhan mendesak kadang harus dibayar segera.</span></div>
+<div class="reason"><b>Kenapa RDPU?</b><br><span class="muted">Karena sebagian dana berpotensi menghasilkan imbal hasil sambil menjaga risiko relatif rendah.</span></div>
+<div class="reason"><b>Kenapa target Rp12 juta?</b><br><span class="muted">Karena target ini memberi cadangan untuk beberapa bulan kebutuhan, sesuai pengeluaran aktual.</span></div>
+<div class="reason"><b>Kenapa disiplin?</b><br><span class="muted">Karena keamanan finansial dibangun dari kebiasaan, bukan satu kali mendapat uang besar.</span></div>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">06</div><div><h2>Prinsip yang harus dipegang</h2></div></div>
+<ul class="list">
+<li><label><input type="checkbox"><span>Jangan mengambil utang konsumtif baru.</span></label></li>
+<li><label><input type="checkbox"><span>Jangan gunakan dana darurat untuk jajan atau keinginan.</span></label></li>
+<li><label><input type="checkbox"><span>Jangan mengejar return tinggi dengan mengorbankan keamanan.</span></label></li>
+<li><label><input type="checkbox"><span>Sisihkan berdasarkan penghasilan bersih, bukan kotor.</span></label></li>
+<li><label><input type="checkbox"><span>Penghasilan tidak tetap bukan alasan berhenti menabung; sesuaikan nominal.</span></label></li>
+<li><label><input type="checkbox"><span>Jika dana darurat terpakai, prioritaskan mengisinya kembali.</span></label></li>
+<li><label><input type="checkbox"><span>Jangan membandingkan progres keuangan dengan orang lain.</span></label></li>
+</ul>
+</section>
+
+<section class="card">
+<div class="section-head"><div class="num">07</div><div><h2>Setelah dana darurat tercapai</h2></div></div>
+<ul class="list">
+<li><label><input type="checkbox"><span>Mulai investasi jangka panjang secara bertahap.</span></label></li>
+<li><label><input type="checkbox"><span>Siapkan dana kebutuhan terencana (kuliah, kendaraan, tahunan).</span></label></li>
+<li><label><input type="checkbox"><span>Investasikan pada pengembangan diri, skill, atau sertifikasi.</span></label></li>
+<li><label><input type="checkbox"><span>Pertahankan dana darurat dan jangan habiskan untuk investasi.</span></label></li>
+</ul>
+</section>
+
+<section class="card">
+<div class="eyebrow">Reminder</div>
+<p class="quote">Saya tidak sedang mengejar kekayaan dalam semalam. Saya sedang membangun sistem agar ketika kehidupan memberikan masalah, saya punya uang, pilihan, dan ketenangan untuk menghadapinya.</p>
+<p style="text-align:center;color:var(--green);font-weight:750;margin:18px 0 0">Pelan-pelan, tapi selesai. Sedikit demi sedikit, tapi nyata.</p>
+<div class="actions"><button class="btn" onclick="window.print()">Print / Save PDF</button><button class="btn" onclick="resetChecks()">Reset checklist</button></div>
+</section>
+<div class="footer">Selesaikan misi yang ada di depan. Setelah satu misi selesai, lanjutkan ke misi berikutnya.</div>
+</main>
+<script>
+document.querySelectorAll('input[type=checkbox]').forEach(c=>c.addEventListener('change',()=>{c.closest('li')?.classList.toggle('done',c.checked)}));
+function resetChecks(){document.querySelectorAll('input[type=checkbox]').forEach(c=>{c.checked=false;c.closest('li')?.classList.remove('done')})}
+</script>
+<script>if("serviceWorker" in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(()=>{}));}</script>
+</body></html>
